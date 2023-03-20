@@ -65,10 +65,6 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="img/firstlabel.jpg" class="d-block w-100" alt="...">
-     <%-- <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>--%>
     </div>
    
     <div class="carousel-item">
@@ -108,7 +104,6 @@
          <div> <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> 
          <br /><h3> प्रिय भक्तगण !पटनदेवी गरहा मंदिर में आपका 
 स्वागत है | </h3></marquee></div>
-      <!-- About right side withBG parallax -->
    
       <div class="container">
         <div class="row">
@@ -211,12 +206,6 @@
       </div> 
       </div>      
     </section> 
-
-
-
-<!--====================================================
-       Inspiring Teachers Strengthening Generations
-======================================================-->
     
     <div>
      <table>
@@ -231,20 +220,11 @@
          <asp:LinkButton ID="LinkButton1" runat="server" 
                 CssClass="btn btn-general btn-white"  BackColor="Black" BorderColor="Black" 
                 onclick="LinkButton1_Click">READ MORE</asp:LinkButton>
-            <%--<div class="title-but"><button class="btn btn-general btn-green" role="button">Read More</button></div>--%>
           </div></td> 
         </div>
         </tr></table>
-      
       </tr>
       </table>
-
-  
- 
-
-  
- 
-
 </div>
     </div>
 </div>
