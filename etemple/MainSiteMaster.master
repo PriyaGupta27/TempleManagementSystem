@@ -1,0 +1,220 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainSiteMaster.master.cs" Inherits="MainSiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ShriBadiPatanDeviGarhaMandir</title>
+    <link rel="shortcut icon" href="img/team/logo2.png">
+
+   
+    <!-- Global Stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/animate/animate.min.css"/>
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css" />
+    <link href="css/style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 259px;
+        }
+    </style>
+</head>
+<body id="page-top" background="img/new/backgrnd.jpg">
+    <form id="form1" runat="server">
+     
+<!--=====================================HEADER======================================================-->
+
+ <header>
+    <table border="0" cellspacing="0" cellpadding="0" id="Table2" 
+        style="background-image: url('img/new/header.jpg')" align="center">
+        <tr>
+          <td class="Head-tab">
+               <table border="0" cellspacing="0" cellpadding="0" align="center" id="Table4" style="background-image: url('img/new/header.jpg')">
+                  <tr>
+                    <td align="center" valign="top" >
+                       <table border="0" cellspacing="0" cellpadding="0" align="center" class="head-tbl" id="Table5" width="1900px">
+                              <tr style="background-image: url('img/new/header.jpg')">
+                                   <td class="style1">
+                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="img/gallery/logo.png" alt="PD Logo" style="width: 150px; height: 100px"></td>
+                                             <td width="612" align="center">
+                                                <h1 style="color: #FFFFFF; font-weight: bold; font-size: xx-large;" align="center">शक्तिपीठ दक्षिण जंघा</h1>
+                                                <h4 style="color: #FFFFFF; font-size: x-large;" align="center">श्री बड़ी पटनदेवी मंदिर गड़हा (जन्मस्थल)</h4></td>
+                                                    <td width="240" align="right" style="vertical-align: top;">
+                                                      <img src="img/new/side.png" alt="img" height="131">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+       
+        </table>
+                            </td>
+                        </tr>
+                                           
+                 </table>          
+                   
+         
+         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav" data-toggle="affix" style="background-color: #FFCC66">
+        <div class="container-fluid" align="center">
+        
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon"></span>
+          </button>  
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="Default.aspx" style="color: #000000; font-family: 'Times New Roman', Times, serif; font-size: 20px; font-weight: bold;"><i class="fa fa-home"></i> &nbsp;HOME</a></li>
+                <li class="nav-item"  ><a class="nav-link smooth-scroll" href="History.aspx" style="color: #000000; font-family: 'Times New Roman', Times, serif; font-size: 20px; font-weight: bold;"><i class="fa fa-history"></i>&nbsp;HISTORY</a></li>
+                
+                
+                
+                <li class="nav-item dropdown" >
+                  <a class="nav-link dropdown-toggle smooth-scroll" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #000000; font-family: 'Times New Roman', Times, serif; font-size: 20px; font-weight: bold;"><i class="fa fa-clone"></i>&nbsp;SERVICES</a> 
+                  <div class="dropdown-menu dropdown-cust" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="ListofPooja.aspx" style="font-size: 15px">POOJA BOOKING</a>
+                    <a class="dropdown-item" href="LiveDrashan.aspx" style="font-size: 15px">LIVE DARSHAN </a>
+                    
+                   
+                  </div>
+                </li>
+                 
+                 <li class="nav-item" ><a class="nav-link smooth-scroll" href="donation.aspx" style="color: #000000; font-family: 'Times New Roman', Times, serif; font-size: 20px; font-weight: bold;"><i class="fa fa-money"></i>&nbsp;DONATION</a></li>
+                 <li class="nav-item dropdown" >
+                  <a class="nav-link dropdown-toggle smooth-scroll" href="#" id="A1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #000000; font-family: 'Times New Roman', Times, serif; font-size:20px; font-weight: bold;"><i class="fa fa-picture-o"></i>&nbsp;GALLERY</a> 
+                  <div class="dropdown-menu dropdown-cust" aria-labelledby="navbarDropdownMenuLink"> 
+                    <a class="dropdown-item"  target="_empty" href="photogallery.aspx" style="font-size: 15px">PHOTO GALLERY</a> 
+                    <a class="dropdown-item"  target="_empty" href="PlayVideo.aspx" style="font-size: 15px">VIDEO GALLERY</a> 
+                    
+                  </div>
+                </li>
+                  <li class="nav-item" ><a class="nav-link smooth-scroll" href="ContactUs.aspx" style="color: #000000; font-family: 'Times New Roman', Times, serif; font-size:20px; font-weight: bold;"><i class="fa fa-phone"></i>&nbsp;CONTACT US</a></li>
+                  <li class="nav-item" ><a class="nav-link smooth-scroll" href="frmregistration.aspx" style="color: #000000; font-family: 'Times New Roman', Times, serif; font-size: 20px; font-weight: bold;"><i class="fa fa-sign-in"></i>&nbsp;REGISTRATION</a></li>
+                    <li class="nav-item" ><a class="nav-link smooth-scroll" href="frmlogin.aspx" style="color: #000000; font-family: 'Times New Roman', Times, serif; font-size: 20px; font-weight: bold;"><i class="fa fa-sign-out"></i>&nbsp;LOGIN</a></li>
+                    <li class="nav-item" ><a class="nav-link smooth-scroll" href="Feedback.aspx" style="color: #000000; font-family: 'Times New Roman', Times, serif; font-size: 20px; font-weight: bold;"><i class="fa fa-comment"></i>&nbsp;FEEDBACK</a></li>    </ul>  
+          </div>
+        </div>
+      </nav>
+    </header> 
+     <asp:Panel runat="server" ID="panBuzz" Width="1067px"  >
+   <audio runat="server" id="Buzz"  src="img/homeaudio.mpeg" type="audio/mpeg"/>
+   <asp:LinkButton ID="LnkStopAudio" runat="server" onclick="LnkStopAudio_Click" ></asp:LinkButton>
+</asp:Panel>
+                                                             
+                 
+               
+                  
+    <!--====================================================
+                    LOGIN OR REGISTER
+======================================================-->
+    
+       
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    
+    
+
+    <!--====================================================
+                      FOOTER
+======================================================--> 
+
+    <footer> 
+        <div id="footer-s1" class="footer-s1">
+          <div class="footer">
+            <div class="container-fluid">
+              <div class="row">
+
+                <!-- About Us -->
+                <div class="col-md-3 col-sm-6 ">
+                  <ul class="list-unstyled comp-desc-f">
+
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.9907378504113!2d85.20506361545401!3d25.605224021307837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5faf800d0f2d%3A0xfcac19a75113752!2sShri%20Patan%20devi%20garha!5e0!3m2!1sen!2sin!4v1618594121866!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </ul>
+                </div>
+                <!-- End About Us -->
+
+                <!-- Recent News -->
+                <div class="col-md-3 col-sm-6 ">
+                  <div class="heading-footer"></div>
+                  <ul class="list-unstyled link-list">
+                   
+                  </ul>
+                </div>
+                <!-- End Recent list -->
+
+                <!-- Recent Blog Entries -->
+                <div class="col-md-3 col-sm-6 ">
+                  <div class="heading-footer"><h2>Useful Links</h2></div>
+                  
+                    <li style="color:#fff" ><a href="History.aspx">History</a> </li>
+                  <li style="color:#fff"><a href="donation.aspx">Donation</a></li>
+                   <li style="color:#fff"><a href="ListofPooja.aspx">Pooja Booking</a></li>
+                   
+                 
+                </div>
+                <!-- End Recent Blog Entries -->
+
+                <!-- Latest Tweets -->
+                
+                <div class="col-md-3 col-sm-6">
+                  <div class="heading-footer">
+                    <address><%--<ul class="list-unstyled thumb-list">--%>
+                      <h2 style="text-decoration: underline; font-weight: bolder; ">संपर्क करें </h2>
+                         <li style="color:#fff">  शक्ति पीठ दक्षिण जंघा बड़ी पटनदेवी जन्मस्थल गरहा मंदिर </li>
+                            <li style="color:#fff">पटना सिटी के समीप</li>
+                            <li style="color:#fff"> पिन -800001  </li>                 
+                             <li style="color:#fff">मोबाइल /व्हाट्सप्प - 435608766</li> 
+                             </div>
+                    
+                            
+                     <li style="color:#fff">ईमेल: <a href="gdsfff@gmail.com" class="">badipatandevi@gmail.org</a></li>
+                  </address>  
+                  <ul class="list-inline social-icon-f top-data">
+                    <li><a href="#" target="_empty"><i class="fa top-social fa-facebook"></i></a></li>
+                    <li><a href="#" target="_empty"><i class="fa top-social fa-google-plus"></i></a></li> 
+                  </ul>
+                </div>
+                <!-- End Latest Tweets -->
+              </div>
+            </div><!--/container -->
+          </div> 
+        </div>
+
+        <div id="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="footer-copyrights">
+                            <p>Copyrights &copy; 2021 All Rights Reserved by Patan Devi Mandir. </p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <a href="#page-top" id="back-to-top" class="btn btn-sm btn-green btn-back-to-top smooth-scrolls hidden-sm hidden-xs" title="home" role="button">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </footer>
+
+    <!--Global JavaScript-->
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/popper/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/wow/wow.min.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery-easing/jquery.easing.min.js"></script> 
+    <script src="js/custom.js"></script> 
+    </div>
+    </form>
+</body>
+</html>
